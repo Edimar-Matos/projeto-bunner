@@ -6,7 +6,7 @@
 
 body{
     background-color: rgb(153, 226, 189);
-    background-image: url(/meu_mostruario/img/minilogo.png);
+    background-image: url(/img/minilogo.png);
 
 }
 
@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;    
-    background-image: url(/meu_mostruario/img/minilogoamarelo.png);
+    background-image: url(/img/minilogoamarelo.png);
     
     background-color: rgb(255, 174, 0);
 }
@@ -113,56 +113,56 @@ nav p{
 
 .prod1{
     
-    background-image: url(/meu_mostruario/img/prod1.PNG);
+    background-image: url(/img/prod1.PNG);
     background-size:contain;
     background-color: azure;
     background-repeat: no-repeat; 
 }
 .prod2{
     
-    background-image: url(/meu_mostruario/img/prod2.PNG);
+    background-image: url(/img/prod2.PNG);
     background-size:contain;
     background-color: azure;
     background-repeat: no-repeat; 
 }
 .prod3{
     
-    background-image: url(/meu_mostruario/img/prod3.PNG);
+    background-image: url(/img/prod3.PNG);
     background-size:contain;
     background-color: azure;
     background-repeat: no-repeat; 
 }
 .prod4{
     
-    background-image: url(/meu_mostruario/img/prod4.PNG);
+    background-image: url(/img/prod4.PNG);
     background-size:contain;
     background-color: azure;
     background-repeat: no-repeat; 
 }
 .prod5{
     
-    background-image: url(/meu_mostruario/img/prod5.PNG);
+    background-image: url(/img/prod5.PNG);
     background-size:contain;
     background-color: azure;
     background-repeat: no-repeat; 
 }
 .prod6{
     
-    background-image: url(/meu_mostruario/img/prod6.PNG);
+    background-image: url(/img/prod6.PNG);
     background-size:contain;
     background-color: azure;
     background-repeat: no-repeat; 
 }
 .prod7{
     
-    background-image: url(/meu_mostruario/img/prod7.PNG);
+    background-image: url(/img/prod7.PNG);
     background-size:contain;
     background-color: azure;
     background-repeat: no-repeat; 
 }
 .prod8{
     
-    background-image: url(/meu_mostruario/img/prod8.PNG);
+    background-image: url(/img/prod8.PNG);
     background-size:contain;
     background-color: azure;
     background-repeat: no-repeat; 
