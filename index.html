@@ -8,195 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/estilo.css">
     <title>Mostruário</title>
-    <style>
-        *{
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: rgb(153, 226, 189);
-    background-image: url(/img/minilogo.png);
-
-}
-
-header{
-    display:flex ;
-    justify-content: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;    
-    background-image: url(/img/minilogoamarelo.png);
-    
-    background-color: rgb(255, 174, 0);
-}
-
-    @media screen and (max-width:700px) {header{ 
-        flex-direction: column;
-        justify-content: center;
-        
-    } }
-    
-
-div{     
-   
-    color: red;
-    padding: 25px 50px;  
-    font-size: 40px;  
-
-}
-@media screen and (max-width:700px) {div{ 
-    flex-direction: column;
-    justify-content:space-evenly;
-    text-align: center;
-    font-size: 20px;
-    padding: 0px;
-    
-} }
-
-p{
-    color: black ;
-    font-style: italic;
-}
-
-/*=== area de imagem*/  
-img{
-    width: 20%;   
-    text-align: right; 
-    margin-right: 20px;   
-}
-
-@media screen and (max-width:700px) {img{ 
-    margin: auto; 
-    width: 30%; 
-    align-items: center;
-    
-} }
-
-/*=== area de eslogan/ frase de efeito*/  
-nav {
-    width: 100%;
-    padding: 10px;
-    background-color: rgb(0, 89, 255);
-    text-align: center;
-}
-
-
-nav p{
-    color: white;
-    font-size: 40px;
-    
-}
-@media screen and (max-width:700px) {nav p{ 
-     font-size: 25px;   
-    
-} }
-
-/*=== area de span ====*/  
-
-.menu{
- 
-    background-color: rgba(255, 255, 255, 0.473);
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0px ;
-
-}
-
-.menu span{
-    width: 20%;
-    height: 450px;
-    border: 2px solid;
-    margin: 10px;
-    background-position: center;
-    
-}
-
-@media screen and (max-width:700px) {.menu span{ 
-    height: 150px;   
-   
-} }
-
-
-.prod1{
-    
-    background-image: url(/img/prod1.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod2{
-    
-    background-image: url(/img/prod2.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod3{
-    
-    background-image: url(/img/prod3.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod4{
-    
-    background-image: url(/img/prod4.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod5{
-    
-    background-image: url(/img/prod5.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod6{
-    
-    background-image: url(/img/prod6.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod7{
-    
-    background-image: url(/img/prod7.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod8{
-    
-    background-image: url(/img/prod8.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-
-    </style>
-
 </head>
 
 <body>
     <header>
         <div>
-        <h1>Suprmercado Ibby </h1>
-        <p>Sempre mais perto de Você.</p>
+            <h1>Suprmercado Ibby </h1>
+            <p>Sempre mais perto de Você.</p>
         </div>
         <img src="./img/loguinho.png" alt="">
     </header>
     <nav>
-       <p>Promoção do dia, aguardando por você!</p>
+        <p>Promoção do dia, aguardando por você!</p>
     </nav>
 
     <div class="menu">
-        <span class="prod1">1</span>
+        <span >
+            <img class="prod1" src="./img/prod1.PNG" alt="">
+        </span>
         <span class="prod2">2</span>
         <span class="prod3">3</span>
         <span class="prod4">4</span>
@@ -204,7 +33,7 @@ nav p{
         <span class="prod6">6</span>
         <span class="prod7">7</span>
         <span class="prod8">8</span>
-           
+
 
     </div>
 

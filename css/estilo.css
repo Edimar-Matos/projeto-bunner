@@ -111,12 +111,9 @@ nav p{
 } }
 
 
-.prod1{
-    
-    background-image: url(/img/prod1.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
+img.prod1{
+   width: 100%;
+   height: 100%;
 }
 .prod2{
     
