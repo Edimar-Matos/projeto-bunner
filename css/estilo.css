@@ -115,52 +115,40 @@ img.prod1{
    width: 100%;
    height: 100%;
 }
-.prod2{
-    
-    background-image: url(/img/prod2.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod3{
-    
-    background-image: url(/img/prod3.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod4{
-    
-    background-image: url(/img/prod4.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod5{
-    
-    background-image: url(/img/prod5.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod6{
-    
-    background-image: url(/img/prod6.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod7{
-    
-    background-image: url(/img/prod7.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
-.prod8{
-    
-    background-image: url(/img/prod8.PNG);
-    background-size:contain;
-    background-color: azure;
-    background-repeat: no-repeat; 
-}
+img.prod1{
+    width: 100%;
+    height: 100%;
+ }
+ img.prod1{
+    width: 100%;
+    height: 100%;
+ }
+ img.prod2{
+    width: 100%;
+    height: 100%;
+ }
+ img.prod3{
+    width: 100%;
+    height: 100%;
+ }
+ img.prod4{
+    width: 100%;
+    height: 100%;
+ }
+ img.prod5{
+    width: 100%;
+    height: 100%;
+ }
+ img.prod6{
+    width: 100%;
+    height: 100%;
+ }
+ img.prod7{
+    width: 100%;
+    height: 100%;
+ }
+ img.prod8{
+    width: 100%;
+    height: 100%;
+ }
+
